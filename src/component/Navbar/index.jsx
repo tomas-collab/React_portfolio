@@ -1,7 +1,7 @@
 import { Navbar,Container } from "react-bootstrap"
 export const ProfileNav = ()=>{
     return(
-        <Container fluid>
+        <Container >
             <Navbar expand="lg" variant="light" bg="light">
                 <Container>
                   <Navbar.Brand >Navbar</Navbar.Brand>

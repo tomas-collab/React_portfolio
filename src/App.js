@@ -1,21 +1,19 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { BrowserRouter as Router,Route,Switch} from 'react-router-dom';
-import { ProfileHome } from './views/Home';
-import { ProfileNav } from './component/Navbar';
-import { ProfileFooter } from './component/Footer';
-import { ProfileProject } from './views/Projects';
+import ProfileNav from './component/Navbar'
+import Profile from './component/Profile'
+import Projects from './component/Project'
+import ContactMe from './component/Contact'
 
 function App() {
   return (
-    <div className="App">
-      <ProfileNav/>
-      <Router>
-          <Switch>
-              <Route path='/' exact render={(routerProps)=><ProfileHome {...routerProps}/>} />
-          </Switch>
-      </Router>
-      
+    <div className="app">
+     <ProfileNav/>
+     <div className='sections'>
+        <Profile/>
+        <Projects/>
+        <ContactMe/>
+     </div>
     </div>
   );
 }
