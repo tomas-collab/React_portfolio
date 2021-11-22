@@ -1,4 +1,6 @@
 .profile{
         width: 100%;
-        height: calc(100vh - 70px);
+        height: 100vh;
+        background-color: green;
+        scroll-snap-align: start;
 }
