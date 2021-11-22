@@ -1,12 +1,15 @@
 import { Navbar,Container } from "react-bootstrap"
-export const ProfileNav = ()=>{
+import './style.css'
+ const ProfileNav = ()=>{
     return(
-        <Container >
+        <div className='profile-nav'>
             <Navbar expand="lg" variant="light" bg="light">
                 <Container>
                   <Navbar.Brand >Navbar</Navbar.Brand>
                 </Container>
             </Navbar>
-        </Container>
+        </div>
     )
 }
+
+export default ProfileNav
