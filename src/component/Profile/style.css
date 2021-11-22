@@ -3,4 +3,25 @@
         height: 100vh;
         background-color: green;
         scroll-snap-align: start;
+        background-image: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=1.00xw:0.669xh;0,0.190xh&resize=1200:*');
+        background-size: cover;
+}
+.name{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 200px;
+    line-height: 180px;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    background: url('../../assets/hexagon.jpg');
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
 }
