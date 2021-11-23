@@ -3,11 +3,18 @@ import './style.css'
  const ProfileNav = ()=>{
     return(
         <div className='profile-nav'>
-            <Navbar expand="lg" variant="light" bg="light">
-                <Container>
-                  <Navbar.Brand >Navbar</Navbar.Brand>
+         
+                <Container className='nav-container' >
+                  <Navbar.Brand >Tomas</Navbar.Brand>
+                  <div>
+                        <a>Profile</a>
+                        <a className='ml-4'>Projects</a>
+                        <a className='ml-4'>AboutMe</a>
+                        <a  className='ml-4'>ContactMe</a>
+                  </div>
+                 
                 </Container>
-            </Navbar>
+       
         </div>
     )
 }
