@@ -27,8 +27,13 @@
     }
 }
 .about-me{
-    flex: 0.5;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.profile-right {
+    
+    flex: 0.5;
+    display: flex;
 }
