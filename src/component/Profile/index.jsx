@@ -1,7 +1,9 @@
 import './style.css'
 import { init } from 'ityped'
 import { useEffect, useRef } from 'react'
-import { BsFacebook, BsGithub, BsInstagram, BsTwitter } from 'react-icons/bs'
+import { BsGithub, BsInstagram, BsLinkedin } from 'react-icons/bs'
+import { ImFacebook, ImLinkedin2 } from 'react-icons/im'
+
 
 
 
@@ -19,11 +21,11 @@ const Profile =()=>{
                 <h1 className='name'>TOMAS</h1>
                 <div className='profile-right'>
                         <h3 className='about-me' ref={textRef}></h3>
-                        <div>
-                            <BsFacebook/>
-                            <BsInstagram/>
-                            <BsTwitter/>
-                            <BsGithub/>
+                        <div className='social-medias'>
+                            <ImFacebook className='facebook'/>
+                            <BsInstagram className='instagram'/>
+                            <ImLinkedin2 className='linkedin'/>
+                            <BsGithub className='github'/>
                         </div>
                 </div>
              </div>

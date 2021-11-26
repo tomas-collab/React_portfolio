@@ -3,8 +3,23 @@
     top: 0;
     width: 100%;
     z-index: 6;
+    background-color: black;
+    color: white;
+    height: 50px;
 }
 .nav-container{
     display: flex;
     align-items: center;
+}
+.nav-logo{
+    flex: 0.5;
+}
+.navbar-sections{
+    flex: 0.5;
+    display: flex;
+    justify-content: right;
+}
+.navbar-sections a {
+    text-decoration: none;
+    color: white;
 }
