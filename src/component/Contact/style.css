@@ -1,6 +1,6 @@
 .contact{
     width: 100%;
     height: calc(100vh - 50px);
-    background-color: yellow;
+    /* background-color: yellow; */
     scroll-snap-align: start;
 }

@@ -3,15 +3,18 @@
         height: 100vh;
         background-color: green;
         scroll-snap-align: start;
-        background-image: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=1.00xw:0.669xh;0,0.190xh&resize=1200:*');
-        background-size: cover;
+        background-image: url('../../assets/tomas.jpg');
+        background-size:100% 100%;
+        background-repeat: no-repeat;
+        image-resolution: 300dpi;
+        
 }
 .name{
     flex: 0.5;
     display: flex;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
+    height: 40vh;
+    justify-content: end;
+    align-items: flex-end;
     font-size: 200px;
     line-height: 180px;
     color: transparent;

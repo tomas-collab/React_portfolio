@@ -1,6 +1,23 @@
 .projects{
     width: 100%;
     height: calc(100vh - 50px);
-    background-color: red;
+    background-color: #131B20;
     scroll-snap-align: start;
+}
+.projects-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    width: 150%;
+    margin: 0px -25%;
+}
+hr{
+    width: 4px;
+    height: 150px;
+    margin-top: 4rem !important;
+    background-color: yellow;
+    margin: 75px auto;
+    border: none;
+    border-radius: 5px;
 }
