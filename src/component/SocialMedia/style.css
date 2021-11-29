@@ -1,0 +1,15 @@
+.social-list{
+    list-style: none;
+    padding: 0;
+    display: block;
+    flex-direction: column;
+}
+.sidebar-social-container{
+    position: fixed;
+    left: 0;
+    z-index: 20;
+    top: 18rem;
+}
+.socialmed:hover{
+    transform: rotateX(0deg) rotateY(34deg);
+}

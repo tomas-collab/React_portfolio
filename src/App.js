@@ -4,11 +4,13 @@ import ProfileNav from './component/Navbar'
 import Profile from './component/Profile'
 import Projects from './component/Project'
 import ContactMe from './component/Contact'
+import SocialMedia from './component/SocialMedia';
 
 function App() {
   return (
     <div className="app">
      <ProfileNav/>
+     <SocialMedia/>
      <div className='sections'>
         <Profile/>
         <Projects/>
