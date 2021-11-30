@@ -2,9 +2,9 @@ import './style.css'
 
  const Projects =()=>{
     return(
-         <div className='projects'>
+         <div className='projects' id='projects' >
              <hr className='random-line' />
-             <ul className='projects-list'>
+             <ul className='projects-list container'>
                  <a href="">1</a>
                  <a href="">2</a>
                  <a href="">3</a>

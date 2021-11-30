@@ -10,7 +10,7 @@ import './style.css'
                         <a href='#profile'>Profile</a>
                         <a href='#projects' className='ml-4'>Projects</a>
                         <a href='#aboutMe' className='ml-4'>AboutMe</a>
-                        <a href='#ContactMe'  className='ml-4'>ContactMe</a>
+                        <a href='#contact'  className='ml-4'>ContactMe</a>
                   </div>
                  
                 </Container>

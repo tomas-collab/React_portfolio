@@ -2,7 +2,7 @@
 import './style.css'
 const ContactMe=()=>{
     return(
-         <div className='contact'>
+         <div className='contact' id='contact'>
 contact         </div>
     )
 }

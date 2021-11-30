@@ -16,7 +16,7 @@ const Profile =()=>{
             strings: ['FullStack Developer', 'Video Editor', 'BSN' ] })
     }, [])
     return(
-         <div className='profile' >
+         <div className='profile' id='profile' >
              <div className='d-flex'>
                 <h1 className='name'>TOMAS</h1>
                 <div className='profile-right'>

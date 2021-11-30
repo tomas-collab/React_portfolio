@@ -3,6 +3,7 @@
     height: calc(100vh - 50px);
     background-color: #131B20;
     scroll-snap-align: start;
+    
 }
 .projects-list{
     display: grid;
@@ -10,7 +11,8 @@
     grid-template-rows: repeat(3, 1fr);
     gap: 10px;
     width: 150%;
-    margin: 0px -25%;
+    margin: 0px 9%;
+   
 }
 hr{
     width: 4px;
@@ -20,4 +22,11 @@ hr{
     margin: 75px auto;
     border: none;
     border-radius: 5px;
+}
+.projects-list a {
+    background-color: black;
+    padding: 20px;
+}
+.projects-list a:hover{
+    background-color: #1E2025;
 }
