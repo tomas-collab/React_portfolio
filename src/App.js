@@ -5,6 +5,8 @@ import Profile from './component/Profile'
 import Projects from './component/Project'
 import ContactMe from './component/Contact'
 import SocialMedia from './component/SocialMedia';
+import SkillsTools from './component/SkillsTools';
+
 
 function App() {
   return (
@@ -14,6 +16,7 @@ function App() {
      <div className='sections'>
         <Profile/>
         <Projects/>
+        <SkillsTools/>
         <ContactMe/>
      </div>
     </div>

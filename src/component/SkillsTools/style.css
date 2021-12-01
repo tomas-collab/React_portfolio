@@ -1,0 +1,13 @@
+.skills-container{
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 50px);
+    background-color: #131B20;
+    scroll-snap-align: start;
+}
+.skill-right{
+    flex: 0.5;
+}
+.skill-left{
+    flex: 1;
+}
