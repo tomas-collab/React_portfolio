@@ -13,37 +13,40 @@ const SkillsTools = () =>{
                    <div>
                        <h3>Programming Language</h3>
                        <ul>
-                           <li>1</li>
-                           <li>2</li>
-                           <li>3</li>
-                           <li>4</li>
+                           <li>Javascript & NodeJs</li>
+                           <li>TypeScript</li>
+                           <li>CSS</li>
+                           <li>HTML</li>
                        </ul>
                    </div>
                    <div>
                        <h3>Data</h3>
                        <ul>
-                           <li>1</li>
-                           <li>2</li>
-                           <li>3</li>
-                           <li>4</li>
+                           <li>MongoDB</li>
+                           <li>Mongoose</li>
+                           <li>SQL</li>
+                           <li>Sequelize</li>
+                           <li>REST APIs</li>
                        </ul>
                    </div>
                    <div>
                        <h3>Frameworks & Libraries</h3>
                        <ul>
-                           <li>1</li>
-                           <li>2</li>
-                           <li>3</li>
-                           <li>5</li>
+                           <li>ReactJS</li>
+                           <li>Express</li>
+                           <li>Jest</li>
+                           <li>Styled-Components</li>
+                           <li>Socketio</li>
                        </ul>
                    </div>
                    <div>
                        <h3>Other Skills & Tools</h3>
                        <ul>
-                           <li>1</li>
-                           <li>1</li>
-                           <li>1</li>
-                           <li>1</li>
+                           <li>Git (version control)</li>
+                           <li>Responsive web design</li>
+                           <li>Linux</li>
+                           <li>VSCode</li>
+                           <li>Cryptography</li>
                        </ul>
                    </div>
                </div>
