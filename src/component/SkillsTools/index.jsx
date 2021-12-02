@@ -1,4 +1,7 @@
 import './style.css'
+import { DiReact } from 'react-icons/di'
+import { SiJavascript, SiTypescript } from 'react-icons/si'
+import { AiFillHtml5 } from 'react-icons/ai'
 
 
 const SkillsTools = () =>{
@@ -46,7 +49,10 @@ const SkillsTools = () =>{
                </div>
             </div>
            <div className='skill-right'>
-                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo excepturi eaque aliquid cumque qui perferendis eveniet sit molestias corrupti aspernatur. Voluptatum dicta dolores impedit officiis, rerum dolorem laboriosam facilis deserunt.
+               <div><DiReact style={{borderRadius:'50%', background:'#282D50'}} size='42' color='white'/></div>
+               <div><SiJavascript style={{borderRadius:'50%', backgroundColor:'#282D50'}} size='42' color='white' /></div>
+               <div> <SiTypescript style={{borderRadius:'50%', backgroundColor:'#282D50'}} size='42' color='white'/></div>
+               <div><AiFillHtml5 style={{borderRadius:'50%', backgroundColor:'#282D50'}} size='42' color='white'/></div>
            </div>
        </div>
    )

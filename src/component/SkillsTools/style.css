@@ -5,10 +5,13 @@
     background-color: #161F4A;
     scroll-snap-align: start;
     padding: 32px;
+    gap: 5rem;
    
 }
 .skill-right{
     flex: 0.5;
+    grid-template-columns: 1fr 1fr;
+    display: grid;
 }
 .skill-left{
     flex: 1;
