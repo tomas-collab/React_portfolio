@@ -6,7 +6,7 @@ import { AiFillHtml5 } from 'react-icons/ai'
 
 const SkillsTools = () =>{
    return (
-       <div className='skills-container container'>
+       <div className='skills-container container' id='skills'>
            <div className='skill-left'>
                <h1>Skills & Tools</h1>
                <div className='skills-title'>

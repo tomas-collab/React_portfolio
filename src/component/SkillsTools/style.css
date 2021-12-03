@@ -16,7 +16,8 @@
 .skill-left{
     flex: 1;
     position: relative;
-    background-color: white;
+    background-color: black;
+    color: white;
     top: -64px;
     padding: 32px;
 }
