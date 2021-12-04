@@ -1,0 +1,8 @@
+
+.tick-container{
+    border-radius: 50%;
+    border: 1px solid green;
+}
+.tick{
+    color: green;
+}
