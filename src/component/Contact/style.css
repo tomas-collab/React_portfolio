@@ -4,4 +4,26 @@
     /* background-color: yellow; */
     scroll-snap-align: start;
     background-color: #131B20;
+    display: flex;
+}
+
+.contact-left{
+    flex: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-right{
+    flex: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-submit{
+    display: grid;
+    color: white;   
+    padding: 18px;
+    border: 1px solid;
+    background-color: #161F4A;
+    border-radius: 12px;
 }

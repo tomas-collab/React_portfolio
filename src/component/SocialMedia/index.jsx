@@ -11,6 +11,8 @@ const SocialMedia = () =>{
                         <li className='socialmed'><BsTwitter color='#00ABF0' size='29'/></li>
                         <li className='socialmed'><ImMail color='#DD4B39' size='29'/></li>
                         <li className='socialmed'><BsLinkedin color='#0077b5' size='29'/></li>
+                        <hr  className='socialmed-line1'/>
+                        <hr className='socialmed-line2' />
                     </ul>
                 </div>
     )
