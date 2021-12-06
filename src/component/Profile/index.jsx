@@ -38,7 +38,7 @@ const Profile =()=>{
              </div>
       </div>
       <Projects aos='slide-up' offset='100' easing='ease-in-out'/>
-      <SkillsTools aos='flip-left' offset='100' easing='ease-in-out'/>
+      <SkillsTools delay='300' delay2='400' delay3='500' delay4='600' delay5='700' aos='flip-left' offset='100' easing='ease-in-out'/>
       <ContactMe/>
 
       </>

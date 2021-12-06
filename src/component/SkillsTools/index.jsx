@@ -5,7 +5,7 @@ import { AiFillHtml5 } from 'react-icons/ai'
 import { BsFillBootstrapFill } from 'react-icons/bs'
 
 
-const SkillsTools = ({aos,offset,easing}) =>{
+const SkillsTools = ({aos,offset,easing,delay,delay2,delay3,delay4,delay5}) =>{
    return (
        <div  className='skills-container ' id='skills'>
            <div data-aos={aos} data-aos-offset={offset} data-aos-easing={easing} className='skill-left'>
@@ -55,17 +55,17 @@ const SkillsTools = ({aos,offset,easing}) =>{
                </div>
             </div>
            <div className='skill-right'>
-               <div><DiReact className='icon' size='62' color='white'/></div>
-               <div><SiJavascript className='icon'  size='62' color='white' /></div>
-               <div> <SiTypescript className='icon'  size='62' color='white'/></div>
-               <div><AiFillHtml5 className='icon'  size='62' color='white'/></div>
-               <div><SiMongodb className='icon'  size='62' color='white'/></div>
-               <div><BsFillBootstrapFill className='icon'  size='62' color='white'/></div>
-               <div><DiNodejsSmall className='icon'  size='62' color='white'/></div>
-               <div><SiSocketdotio className='icon'  size='62' color='white'/></div>
-               <div><SiPostgresql className='icon'  size='62' color='white'/></div>
-               <div><SiRedux className='icon'  size='62' color='white'/></div>
-               <div><SiMicrosoftazure className='icon'  size='62' color='white'/></div>
+               <div data-aos={aos} data-aos-delay={delay}><DiReact  className='icon' size='62' color='white'/></div>
+               <div data-aos={aos} data-aos-delay={delay5}><SiJavascript className='icon'  size='62' color='white' /></div>
+               <div data-aos={aos} data-aos-delay={delay2}> <SiTypescript className='icon'  size='62' color='white'/></div>
+               <div data-aos={aos} data-aos-delay={delay4}><AiFillHtml5 className='icon'  size='62' color='white'/></div>
+               <div data-aos={aos} data-aos-delay={delay3}><SiMongodb className='icon'  size='62' color='white'/></div>
+               <div data-aos={aos} data-aos-delay={delay3}><BsFillBootstrapFill className='icon'  size='62' color='white'/></div>
+               <div data-aos={aos} data-aos-delay={delay4}><DiNodejsSmall className='icon'  size='62' color='white'/></div>
+               <div data-aos={aos} data-aos-delay={delay2}><SiSocketdotio className='icon'  size='62' color='white'/></div>
+               <div data-aos={aos} data-aos-delay={delay4}><SiPostgresql className='icon'  size='62' color='white'/></div>
+               <div data-aos={aos} data-aos-delay={delay}><SiRedux className='icon'  size='62' color='white'/></div>
+               <div data-aos={aos} data-aos-delay={delay5}><SiMicrosoftazure className='icon'  size='62' color='white'/></div>
            </div>
        </div>
    )

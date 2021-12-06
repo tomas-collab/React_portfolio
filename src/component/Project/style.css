@@ -26,7 +26,18 @@
 .projects-list a {
     background-color: black;
     padding: 20px;
+    transition: transform 0.7s;
 }
 .projects-list a:hover{
     background-color: #1E2025;
+}
+
+.projects-list a:hover{
+    transform: translate3d(0.5rem, -0.2in, 0.5rem);
+}
+.projects h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
 }
