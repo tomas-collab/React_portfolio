@@ -13,12 +13,12 @@ const ContactMe=()=>{
     }
     return(
          
-         <div className='contact' id='contact'>
+         <div  className='contact' id='contact'>
              <div className='contact-left'>
                     <h1>Get In Touch</h1>
                     <div className='contact-left-media'>
-                        <BsLinkedin size='34'/>
-                        <BsGithub size='34' className='ml-4'/>
+                        <BsLinkedin style={{cursor:'pointer'}} size='34'/>
+                        <BsGithub size='34'style={{cursor:'pointer'}} className='ml-4'/>
                     </div>
              </div>
              <div className='contact-right'>
@@ -33,10 +33,8 @@ const ContactMe=()=>{
                             <input  id='email' placeholder='Email address' type="email" name="email" required/>
                             <label className='mt-3' htmlFor="message">Message</label>
                             <textarea id='message' placeholder='write your message here' type="text" name="message" required/>
+                            <input type="hidden" name='_next' value='http://localhost:3000/thankyou' />
                             <button onClick={()=>setMessage(true)} className='send-message mt-5' type="submit">Send</button>   
-                            {
-                                message?<h5 className='message-reply'>Thanks,I'll reply ASAP :)</h5>: <h5>Feel free to contact me anytime</h5>
-                            }
                     </form>
              </div>
              

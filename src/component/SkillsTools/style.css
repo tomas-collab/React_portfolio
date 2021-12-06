@@ -13,6 +13,13 @@
     grid-template-columns: 1fr 1fr;
     display: grid;
 }
+.icon {
+    color: white;
+    border-radius: 33%;
+    border-bottom-left-radius: 50px;
+    background: #5d5d5d;
+    padding: 5px;
+}
 .skill-left{
     flex: 1;
     position: relative;

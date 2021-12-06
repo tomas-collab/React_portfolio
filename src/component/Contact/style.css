@@ -56,3 +56,8 @@
     color: green;
     z-index: 44;
 }
+.contact-left-media{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 32px;
+}

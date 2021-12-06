@@ -2,24 +2,24 @@ import './App.scss';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import ProfileNav from './component/Navbar'
 import Profile from './component/Profile'
-import Projects from './component/Project'
-import ContactMe from './component/Contact'
 import SocialMedia from './component/SocialMedia';
-import SkillsTools from './component/SkillsTools';
+import { BrowserRouter as Router,Route,Switch } from 'react-router-dom';
+import Thankyou from './component/Thankyou';
 
 
 function App() {
+  
   return (
-    <div className="app">
-     <ProfileNav/>
+  <Router>
+    <div className="app fluid">
+     <ProfileNav />
      <SocialMedia/>
-     <div className='sections'>
-        <Profile/>
-        <Projects/>
-        <SkillsTools/>
-        <ContactMe/>
-     </div>
+     <Switch>
+     <Route path="/thankyou" exact render={(routerProps) =><Thankyou {...routerProps} />}></Route> 
+     <Route  path="/" exact render={(routerProps) =><Profile {...routerProps} />}></Route> 
+     </Switch>
     </div>
+  </Router>
   );
 }
 
