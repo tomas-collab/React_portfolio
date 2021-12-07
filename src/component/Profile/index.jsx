@@ -15,7 +15,7 @@ const Profile =()=>{
     useEffect(() => {
         init(textRef.current, { 
             showCursor: false, 
-            strings: ['FullStack Developer', 'Video Editor', 'BSN' ] })
+            strings: ['Full Stack Engineer (MERN)', 'Video Editor'] })
         }, [])
 
         useEffect(() => {  
