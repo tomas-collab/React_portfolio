@@ -3,7 +3,7 @@ import { useState } from 'react'
 import { BsGithub, BsLinkedin } from 'react-icons/bs'
 import { IoIosArrowDropdown } from 'react-icons/io'
 import './style.css'
-const ContactMe=()=>{
+const ContactMe=({aos,offset,easing})=>{
     const [Show, setShow] = useState('0')
     const [display, setDisplay] = useState('1')
     const [message, setMessage] = useState(false)
@@ -13,7 +13,7 @@ const ContactMe=()=>{
     }
     return(
          
-         <div  className='contact' id='contact'>
+         <div data-aos={aos} data-aos-offset={offset} data-aos-easing={easing}  className='contact' id='contact'>
              <div className='contact-left'>
                     <h1>Get In Touch</h1>
                     <div className='contact-left-media'>

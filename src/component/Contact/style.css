@@ -8,30 +8,39 @@
 }
 
 .contact-left{
-    flex: 0.5;
+    flex: 0.5 1;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
     color: white;
+    justify-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    margin-top: 8rem;
+
 }
 
 .contact-right{
-    flex: 0.5;
+    flex: 0.5 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: auto;
+    background-color: #1e272b;
+    border-bottom-left-radius: 18rem;
+    border-top-left-radius: 2rem;
 }
 .form-submit{
     display: grid;
-    color: white;   
+    color: white;
     padding: 18px;
     border: 1px solid;
     background-color: #161F4A;
     border-radius: 12px;
-    box-shadow: 0 0 2px 2px blue;
+    box-shadow: 0 0 7px 2px white;
+  
 }
 .send-message{
     background-color: black;
